@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <button class="menu-button" onclick="shownav()"><i class="fa fa-bars"></i> Menu</button>
+        <span>Logo</span>
+    </header>
+    <!-- <section class="main-section"> -->
+    <nav id="nav">
+        <div class="profile">
+            <img src="./extra/avatar2.png" alt="profile image">
+            <div>
+                Welcome, <b>Mike</b>
+                <br>
+                <div>
+                    <a><i class="fa fa-envelope"></i></a>
+                    <a><i class="fa fa-envelope"></i></a>
+                    <a><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="menu_content">
+            <h2>Dashboard</h2>
+            <div class="menu-items-container">
+                <a class="active" href="#"><i class="fa fa-users fa-fw"></i>Overview</a>
+                <a href="#"><i class="fa fa-eye fa-fw"></i>Views</a>
+                <a href="#"><i class="fa fa-users fa-fw"></i>Traffic</a>
+                <a href="#"><i class="fa fa-bullseye fa-fw"></i>Geo</a>
+                <a href="#"><i class="fa fa-diamond fa-fw"></i>Orders</a>
+                <a href="#"><i class="fa fa-bell fa-fw"></i>News</a>
+                <a href="#"><i class="fa fa-bank fa-fw"></i>General</a>
+                <a href="#"><i class="fa fa-cog fa-fw"></i>History</a>
+            </div>
+        </div>
+    </nav>
+    <div class="overlay" id="overlay" onclick="shownav()"></div>
+    <main>
+
+        </div>
+        <section class="my-dashboard-section">
+            <h2 class="section-header"><i class="fa fa-dashboard"></i> My Dashboard</h2>
+            <div class="my-dashboard">
+                <div class="dashboard-block red-back">
+                    <div class="left">
+                        <i class="fa fa-comment"></i>
+                        <br><br>
+                        <p>Messages</p>
+                    </div>
+                    <div class="right">
+                        <p>52</p>
+                    </div>
+                </div>
+                <div class="dashboard-block blue-back">
+                    <div class="left">
+                        <i class="fa fa-comment"></i>
+                        <br><br>
+                        <p>Messages</p>
+                    </div>
+                    <div class="right">
+                        <p>52</p>
+                    </div>
+                </div>
+                <div class="dashboard-block green-back">
+                    <div class="left">
+                        <i class="fa fa-comment"></i>
+                        <br><br>
+                        <p>Messages</p>
+                    </div>
+                    <div class="right">
+                        <p>52</p>
+                    </div>
+                </div>
+                <div class="dashboard-block yellow-back">
+                    <div class="left">
+                        <i class="fa fa-comment"></i>
+                        <br><br>
+                        <p>Messages</p>
+                    </div>
+                    <div class="right">
+                        <p>52</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="regions-feeds">
+            <div class="regions">
+                <h2>Regions</h2>
+                <img src="./extra/region.jpg" alt="">
+            </div>
+            <div class="feeds">
+                <h2>Feeds</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><i class="fa fa-user blue"></i></td>
+                            <td>New record, over 90 views.</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-user red"></i></td>
+                            <td>New record, over 90 views.</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-user yellow"></i></td>
+                            <td>New record, over 90 views.</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-user red"></i></td>
+                            <td>New record, over 90 views.</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-user blue"></i></td>
+                            <td>New record, over 90 views.</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-user red"></i></td>
+                            <td>New record, over 90 views.</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-user green"></i></td>
+                            <td>New record, over 90 views.</td>
+                            <td>10 mins</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="general-stats">
+            <h2>General Stats</h2>
+            <div>
+                <h3>New Visitors</h3>
+                <div class="new-visitors black-back">
+                    <div class="completed green-back">
+                        +25%
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>New Users</h3>
+                <div class="new-users black-back">
+                    <div class="completed yellow-back">
+                        +25%
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Bounce Rate</h3>
+                <div class="bounce-rate black-back">
+                    <div class="completed red-back">
+                        +25%
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="countries">
+            <h2>Countries</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>United States</td>
+                        <td>65%</td>
+                    </tr>
+                    <tr>
+                        <td>United States</td>
+                        <td>65%</td>
+                    </tr>
+                    <tr>
+                        <td>United States</td>
+                        <td>65%</td>
+                    </tr>
+                    <tr>
+                        <td>United States</td>
+                        <td>65%</td>
+                    </tr>
+                    <tr>
+                        <td>United States</td>
+                        <td>65%</td>
+                    </tr>
+                    <tr>
+                        <td>United States</td>
+                        <td>65%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button>More Countries <i class="fa fa-arrow-right"></i></button>
+        </section>
+
+        <section class="recent-users">
+            <h2>Recent Users</h2>
+            <ul class="users">
+                <li class="user"><img src="./extra/avatar2.png" alt=""><span>Mike</span></li>
+                <li class="user"><img src="./extra/avatar2.png" alt=""><span>Mike</span></li>
+                <li class="user"><img src="./extra/avatar2.png" alt=""><span>Mike</span></li>
+            </ul>
+        </section>
+        <section class="recent-comments">
+            <h2>Recent Comments</h2>
+            <ul>
+                <li><div class="img"><img src="./extra/avatar3.png" alt=""></div><div><h4>John<span> Sep 29, 2014, 9:12 PM</span></h4><p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p></div></li>
+                <li><div class="img"><img src="./extra/avatar3.png" alt=""></div><div><h4>John<span> Sep 29, 2014, 9:12 PM</span></h4><p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p></div></li>
+            </ul>
+        </section>
+        <section class="links">
+            <div>
+                <h5 class="bottom-bar-green bottom-bar">Demographic</h5>
+                <p>Language</p>
+                <p>Language</p>
+                <p>Language</p>
+            </div>
+            <div>
+                <h5 class="bottom-bar-red bottom-bar">Demographic</h5>
+                <p>Language</p>
+                <p>Language</p>
+                <p>Language</p>
+            </div>
+            <div>
+                <h5 class="bottom-bar-yellow bottom-bar">Demographic</h5>
+                <p>Language</p>
+                <p>Language</p>
+                <p>Language</p>
+                <p>Language</p>
+            </div>
+        </section>
+        <footer>
+            <h2>FOOTER</h2>
+            <p>Powered by Pribhu Patel</p>
+        </footer>
+    </main>
+    <!-- </section> -->
+    <script>
+        function shownav(){
+           let nav = document.getElementById("nav")
+           let overlay = document.getElementById("overlay")
+           if(nav.style.display ==""){
+               nav.style.display = "block"
+               overlay.style.display = "block"
+           } else{
+               overlay.style.display = "none"
+               nav.style.display = ""
+           }
+           return true
+        }
+    </script>
+</body>
+
+</html>
